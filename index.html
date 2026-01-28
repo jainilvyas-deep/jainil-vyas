@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NUMERIQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+
+<div class="app">
+    <div class="logo">NUMERIQ</div>
+    <p class="tagline">Exploring the Power of Numbers</p>
+
+    <div class="search-box">
+        <input type="number" id="numberInput" placeholder="Enter a number">
+        <button onclick="searchNumber()">Analyze</button>
+    </div>
+
+    <div id="result" class="result-card">
+        <div id="numberInfo"></div>
+        <div id="wikiInfo"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
